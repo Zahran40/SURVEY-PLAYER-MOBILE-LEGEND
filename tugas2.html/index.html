@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pengisian</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>FORM KEPUASAN PLAYER MOBILE LEGEND</h2>
+        <h4><small><i>By, Abbil Rizki Abdillah</i></small></h4>
+
+        <form action="#" method="post">
+            <label for="name">Username:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="number">UID Player:</label>
+            <input type="number" id="number" name="number" required>
+
+            <label>Mode Favorit:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">RANKED</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Classic</label>
+
+            <label for="hobbies">Role Favorit:</label>
+            <input type="checkbox" id="hobi1" name="hobbies" value="Jungler">
+            <label for="hobi1">Jungler</label>
+            <input type="checkbox" id="hobi2" name="hobbies" value="Midlaner">
+            <label for="hobi2">Midlaner</label>
+            <input type="checkbox" id="hobi3" name="hobbies" value="Roamer">
+            <label for="hobi3">Roamer</label>
+            <input type="checkbox" id="hobi4" name="hobbies" value="Goldlaner">
+            <label for="hobi4">Goldlaner</label>
+            <input type="checkbox" id="hobi4" name="hobbies" value="Explaner">
+            <label for="hobi3">Explaner</label>
+
+
+
+            <label for="country">Negara:</label>
+            <select id="country" name="country">
+                <option value="indonesia">Indonesia</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="singapore">Singapura</option>
+                <option value="Kamboja">Kamboja</option>
+                <option value="Filipina">Filipina</option>
+            </select>
+
+            <label for="comments">Komentar Player:</label>
+            <textarea id="comments" name="comments" rows="4" required></textarea>
+
+            <input type="submit" value="Kirim">
+        </form>
+    </div>
+</body>
+</html>
